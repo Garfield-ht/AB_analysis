@@ -1,2 +1,5 @@
-# AB_analysis
-Analyze sequence characteristics
+# Predicting essential genes of 41 prokaryotes by a semi-supervised method
+Essential genes are vitally important to the survival and reproduction of organisms. Many machine learning methods have been widely employed to predict essential genes and have obtained satisfactory results. However, most of these methods are supervised methods and may not obtain the desired result when the labeled data are insufficient. In this paper, we proposed a learning with local and global consistency (LGC) method-based classifier, which was employed to predict the essential genes of 41 prokaryotes. LGC is a graph-based semi-supervised learning method that can construct a prediction model using finite label and constraint information. The performance of the proposed classifier was evaluated by employing intra-organism prediction and leave-one-species-out validation. The average AUC value of 41 organisms in intra-organisms prediction was 0.723 when the labeled sample ratio was 0.5. The results of this study indicate that the proposed method can achieve acceptable prediction performance with limited labeled data. Additionally, the results demonstrate that this method has good universality.
+
+Note：
+Here, we give the source code used to calculate sequence features
